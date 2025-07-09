@@ -263,8 +263,8 @@
           },
           {
             "position": {
-              "x": 40,
-              "y": 235
+              "x": 51.25,
+              "y": 270
             },
             "size": {
               "width": 90,
@@ -1174,8 +1174,8 @@
             },
             "vertices": [
               {
-                "x": 740,
-                "y": 80
+                "x": 750,
+                "y": 50
               }
             ]
           },
@@ -1217,13 +1217,120 @@
             "id": "6cecaa40-2b09-415a-819b-cec5a8867bcb",
             "source": {
               "cell": "66ddb3f0-8814-44a4-a255-53a5013ca83c",
-              "port": "1b471eaa-9751-44fc-a57b-2ca596ef823e"
+              "port": "9db62ed5-2ecf-4116-88ca-ea13ad3016c1"
             },
             "target": {
               "cell": "ef53b3a6-aa94-4dd4-a252-32b482c95632",
-              "port": "3c7ab2de-84a2-42c9-b77a-01f75935cb51"
+              "port": "8692964b-34c3-41a7-8389-e82ac92c707a"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 730,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "Https",
+              "threats": []
+            },
+            "labels": [
+              "Response"
+            ],
+            "id": "01ac44fc-8c06-4a95-abed-48a1429be930",
+            "source": {
+              "cell": "c49297c7-3b12-4104-9720-6014ce9d5adc",
+              "port": "6b13268c-02cd-4752-a44c-fe0f18609857"
+            },
+            "target": {
+              "cell": "ef53b3a6-aa94-4dd4-a252-32b482c95632",
+              "port": "f02b9ced-e767-46a2-893c-56e0ff95a576"
+            },
+            "vertices": [
+              {
+                "x": 180,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "Https",
+              "threats": []
+            },
+            "labels": [
+              "Response"
+            ],
+            "id": "0d95bc29-969a-43e6-bc1f-6217afc435cf",
+            "source": {
+              "cell": "ef53b3a6-aa94-4dd4-a252-32b482c95632",
+              "port": "f02b9ced-e767-46a2-893c-56e0ff95a576"
+            },
+            "target": {
+              "cell": "c49297c7-3b12-4104-9720-6014ce9d5adc",
+              "port": "6b13268c-02cd-4752-a44c-fe0f18609857"
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 140
+              }
+            ]
           }
         ]
       }
