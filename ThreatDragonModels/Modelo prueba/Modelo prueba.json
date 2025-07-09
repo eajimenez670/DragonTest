@@ -770,7 +770,7 @@
             "vertices": [
               {
                 "x": 220,
-                "y": 120
+                "y": 150
               }
             ]
           },
@@ -1301,7 +1301,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Response",
+              "name": "Request",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1314,7 +1314,7 @@
               "threats": []
             },
             "labels": [
-              "Response"
+              "Request"
             ],
             "id": "0d95bc29-969a-43e6-bc1f-6217afc435cf",
             "source": {
@@ -1326,6 +1326,10 @@
               "port": "6b13268c-02cd-4752-a44c-fe0f18609857"
             },
             "vertices": [
+              {
+                "x": 320,
+                "y": 110
+              },
               {
                 "x": 250,
                 "y": 140
