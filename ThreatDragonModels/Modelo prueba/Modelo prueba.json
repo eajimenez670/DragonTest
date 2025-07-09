@@ -1,0 +1,30 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "Modelo prueba",
+    "owner": "Edison Jimenez",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Manuela Perez"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram Security",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Pacho Mondragon",
+    "threatTop": 0
+  }
+}
